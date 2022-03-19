@@ -2,7 +2,8 @@ import { RiComputerLine } from 'react-icons/ri';
 import { FaServer } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
-import Service from './types';
+import { BsCircleFill } from 'react-icons/bs';
+import { Service, Skill } from './types';
 
 export const services: Service[] = [
   {
@@ -33,5 +34,56 @@ export const services: Service[] = [
     title: 'Whatever',
     about:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!',
+  },
+];
+
+export const languages: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: 'JavaScript',
+    level: '70%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'React',
+    level: '50%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Python',
+    level: '35%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Ruby on Rails',
+    level: '50%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Ruby',
+    level: '50%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Bootstrap',
+    level: '60%',
+  },
+];
+
+export const tools: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: 'Photoshop',
+    level: '45%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'PostgreSQL',
+    level: '60%',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Something else',
+    level: '40%',
   },
 ];
