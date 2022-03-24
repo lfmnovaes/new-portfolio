@@ -3,7 +3,7 @@ import { FaServer } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
 import { BsCircleFill } from 'react-icons/bs';
-import { Service, Skill } from './types';
+import { Project, Service, Skill } from './types';
 
 export const services: Service[] = [
   {
@@ -85,5 +85,28 @@ export const tools: Skill[] = [
     Icon: BsCircleFill,
     name: 'Something else',
     level: '40%',
+  },
+];
+
+export const my_projects: Project[] = [
+  {
+    name: 'Recipe App',
+    description:
+      'In this app you can organize your list of foods, recipes, and can create the related shopping list',
+    image_path: '/images/recipe-app.png',
+    deployed_url: 'https://recipe-app-lfmn.herokuapp.com/',
+    github_url: 'https://github.com/lfmnovaes/recipe-app',
+    category: ['ruby on rails'],
+    techs: ['ruby on rails', 'javascript'],
+  },
+  {
+    name: 'Popular Crypto Currencies',
+    description:
+      'Web app showing a list of some popular crypto currencies, with their current prices and past fluctuations',
+    image_path: '/images/crypto-app.png',
+    deployed_url: 'https://react-capstone-lfmn.herokuapp.com/',
+    github_url: 'https://github.com/lfmnovaes/react-capstone',
+    category: ['react'],
+    techs: ['react', 'javascript', 'react-redux', 'react-bootstrap', 'jestjs'],
   },
 ];
