@@ -6,6 +6,7 @@ import {
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -16,10 +17,13 @@ const Sidebar = () => {
 
   return (
     <>
-      <img
+      <Image
         src="https://i.imgur.com/ZdZ5JOK.jpg"
         alt="my avatar"
-        className="w-32 h-32 mx-auto rounded-full"
+        className="mx-auto rounded-full"
+        height="128px"
+        width="128px"
+        quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green-600">Luis</span> Fernando
