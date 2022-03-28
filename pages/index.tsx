@@ -1,4 +1,6 @@
 // import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
+import { motion } from 'framer-motion';
+import { fadeInUp, stagger } from '../animation';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
 
@@ -15,16 +17,17 @@ const index = () => {
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
         <h6 className="my-3 text-xl font-bold">What I Offer</h6>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <motion.div className="grid gap-6 lg:grid-cols-2" variants={stagger} initial="initial" animate="animate">
           {services.map((service, i) => (
-            <div
+            <motion.div
+              variants={fadeInUp}
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
               key={i}
             >
               <ServiceCard service={service} />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

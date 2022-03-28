@@ -41,32 +41,32 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'JavaScript',
-    level: '70%',
+    level: '70',
   },
   {
     Icon: BsCircleFill,
     name: 'React',
-    level: '50%',
+    level: '50',
   },
   {
     Icon: BsCircleFill,
     name: 'Python',
-    level: '35%',
+    level: '35',
   },
   {
     Icon: BsCircleFill,
     name: 'Ruby on Rails',
-    level: '50%',
+    level: '50',
   },
   {
     Icon: BsCircleFill,
     name: 'Ruby',
-    level: '50%',
+    level: '50',
   },
   {
     Icon: BsCircleFill,
     name: 'Bootstrap',
-    level: '60%',
+    level: '60',
   },
 ];
 
@@ -74,17 +74,17 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'Photoshop',
-    level: '45%',
+    level: '45',
   },
   {
     Icon: BsCircleFill,
     name: 'PostgreSQL',
-    level: '60%',
+    level: '60',
   },
   {
     Icon: BsCircleFill,
     name: 'Something else',
-    level: '40%',
+    level: '40',
   },
 ];
 
