@@ -90,6 +90,7 @@ export const tools: Skill[] = [
 
 export const my_projects: Project[] = [
   {
+    id: 1,
     name: 'Recipe App',
     description:
       'In this app you can organize your list of foods, recipes, and can create the related shopping list',
@@ -100,6 +101,7 @@ export const my_projects: Project[] = [
     techs: ['ruby on rails', 'javascript'],
   },
   {
+    id: 2,
     name: 'Popular Crypto Currencies',
     description:
       'Web app showing a list of some popular crypto currencies, with their current prices and past fluctuations',

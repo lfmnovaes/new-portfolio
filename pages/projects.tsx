@@ -9,6 +9,7 @@ import { fadeInFadeOut, fadeInUp, stagger } from '../animation';
 const Projects = () => {
   const [projects, setProjects] = useState(my_projects);
   const [active, setActive] = useState('all');
+  const [showDetail, setShowDetail] = useState<number | null>(null);
 
   const categoryFilter = (category: Category | 'all') => {
     if (category === 'all') {
@@ -45,7 +46,11 @@ const Projects = () => {
             key={i}
             variants={fadeInUp}
           >
-            <ProjectCard project={project} />
+            <ProjectCard
+              project={project}
+              showDetail={showDetail}
+              setShowDetail={setShowDetail}
+            />
           </motion.div>
         ))}
       </motion.div>
