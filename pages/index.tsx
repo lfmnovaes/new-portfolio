@@ -1,12 +1,18 @@
-// import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
+import { NextPage } from 'next';
 import { motion } from 'framer-motion';
-import { fadeInUp, stagger } from '../animation';
+import { fadeInFadeOut, fadeInUp, stagger } from '../animation';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
 
-const index = () => {
+const About: NextPage = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1"
+      variants={fadeInFadeOut}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <h5 className="my-3 font-medium">
         I have a degree of Computer Science at Federal University of Rio de
         Janeiro (UFRJ), graduated at Microverse online school, and I also have
@@ -17,7 +23,12 @@ const index = () => {
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
         <h6 className="my-3 text-xl font-bold">What I Offer</h6>
-        <motion.div className="grid gap-6 lg:grid-cols-2" variants={stagger} initial="initial" animate="animate">
+        <motion.div
+          className="grid gap-6 lg:grid-cols-2"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
           {services.map((service, i) => (
             <motion.div
               variants={fadeInUp}
@@ -29,38 +40,8 @@ const index = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default index;
-
-// export const getServerSideProps = async (
-//   context: GetServerSidePropsContext
-// ) => {
-//   const res = await fetch('http://localhost:3000/api/services');
-//   const data = await res.json();
-
-//   console.log('SERVER', services);
-
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };
-
-// export const getStaticProps = async (
-//   context: GetStaticPropsContext
-// ) => {
-//   const res = await fetch('http://localhost:3000/api/services');
-//   const data = await res.json();
-
-//   console.log('SERVER', services);
-
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };
+export default About;

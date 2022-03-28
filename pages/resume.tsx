@@ -1,11 +1,17 @@
 import Bar from '../components/Bar';
 import { languages, tools } from '../data';
 import { motion } from 'framer-motion';
-import { fadeInUp } from '../animation';
+import { fadeInFadeOut, fadeInUp } from '../animation';
 
-const resume = () => {
+const Resume = () => {
   return (
-    <div className="px-6 py-2">
+    <motion.div
+      className="px-6 py-2"
+      variants={fadeInFadeOut}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       {/* edu & exp */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -46,8 +52,8 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default resume;
+export default Resume;

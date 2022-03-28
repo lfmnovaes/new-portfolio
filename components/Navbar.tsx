@@ -7,7 +7,7 @@ const NavItem: FunctionComponent<{
   setActiveItem: Function;
   name: string;
   route: string;
-}> = ({ activeItem, name, route, setActiveItem }) => {
+}> = ({ activeItem, setActiveItem, name, route }) => {
   return activeItem !== name ? (
     <Link href={route}>
       <a>
@@ -37,20 +37,20 @@ const Navbar = () => {
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name={'About'}
-          route={'/'}
+          name="About"
+          route="/"
         />
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name={'Projects'}
-          route={'/projects'}
+          name="Projects"
+          route="/projects"
         />
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name={'Resume'}
-          route={'/resume'}
+          name="Resume"
+          route="/resume"
         />
       </div>
     </div>
