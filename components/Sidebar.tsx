@@ -49,6 +49,7 @@ const Sidebar = () => {
         <a
           href="https://github.com/lfmnovaes/"
           target="_blank"
+          rel="noreferrer"
           aria-label="github"
         >
           <AiFillGithub className="w-8 h-8 text-gray-800 cursor-pointer dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-500" />
@@ -56,6 +57,7 @@ const Sidebar = () => {
         <a
           href="https://www.linkedin.com/in/lfmnovaes/"
           target="_blank"
+          rel="noreferrer"
           aria-label="linkedin"
         >
           <AiFillLinkedin className="w-8 h-8 text-gray-800 cursor-pointer dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-500" />
@@ -63,6 +65,7 @@ const Sidebar = () => {
         <a
           href="https://twitter.com/lfmnovaes"
           target="_blank"
+          rel="noreferrer"
           aria-label="twitter"
         >
           <AiFillTwitterCircle className="w-8 h-8 text-gray-800 cursor-pointer dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-500" />
