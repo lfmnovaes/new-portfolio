@@ -27,13 +27,12 @@ export const services: Service[] = [
   {
     Icon: MdDeveloperMode,
     title: 'Competitive Coder',
-    about: 'Solved many problems at <b>HackerRank</b> and <b>Codewars</b>',
+    about: 'Solved many challenges at <b>HackerRank</b> and <b>Codewars</b>',
   },
   {
     Icon: AiOutlineAntDesign,
-    title: 'Whatever',
-    about:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!',
+    title: 'Learner',
+    about: 'Daily technology article reader',
   },
 ];
 
@@ -41,17 +40,17 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'JavaScript',
-    level: '70',
+    level: '60',
   },
   {
     Icon: BsCircleFill,
     name: 'React',
-    level: '50',
+    level: '45',
   },
   {
     Icon: BsCircleFill,
     name: 'Python',
-    level: '35',
+    level: '30',
   },
   {
     Icon: BsCircleFill,
@@ -66,31 +65,48 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'Bootstrap',
-    level: '60',
+    level: '50',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'TailwindCSS',
+    level: '55',
   },
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: 'Photoshop',
-    level: '45',
-  },
-  {
-    Icon: BsCircleFill,
     name: 'PostgreSQL',
-    level: '60',
+    level: '50',
   },
   {
     Icon: BsCircleFill,
-    name: 'Something else',
-    level: '40',
+    name: 'Shellscript',
+    level: '35',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Photoshop',
+    level: '30',
   },
 ];
 
 export const my_projects: Project[] = [
   {
     id: 1,
+    name: 'NextJS Pokedex',
+    description:
+      'A simple NextJS pokedex project using the Static Site Generation feature',
+    image_path:
+      'https://raw.githubusercontent.com/lfmnovaes/nextjs-pokedex/dev/front-ss.png',
+    deployed_url: 'https://nextjs-pokedex-lfmn.vercel.app/',
+    github_url: 'https://github.com/lfmnovaes/nextjs-pokedex',
+    category: ['nextjs'],
+    techs: ['nextjs', 'react', 'javascript'],
+  },
+  {
+    id: 2,
     name: 'Recipe App',
     description:
       'In this app you can organize your list of foods, recipes, and can create the related shopping list',
@@ -101,7 +117,7 @@ export const my_projects: Project[] = [
     techs: ['ruby on rails', 'javascript'],
   },
   {
-    id: 2,
+    id: 3,
     name: 'Popular Crypto Currencies',
     description:
       'Web app showing a list of some popular crypto currencies, with their current prices and past fluctuations',
@@ -110,5 +126,29 @@ export const my_projects: Project[] = [
     github_url: 'https://github.com/lfmnovaes/react-capstone',
     category: ['react'],
     techs: ['react', 'javascript', 'react-redux', 'react-bootstrap', 'jestjs'],
+  },
+  {
+    id: 4,
+    name: 'Rental Car Front-End',
+    description:
+      'FrontEnd part for the Car Rental project, to make it easier to add/delete reservations, show available cars and cities. Data from the BackEnd RoR API project.',
+    image_path:
+      'https://raw.githubusercontent.com/lfmnovaes/car-rental-frontend/dev/preview.png',
+    deployed_url: 'https://car-rental-frontend-lfmn.netlify.app/',
+    github_url: 'https://github.com/lfmnovaes/car-rental-front-end',
+    category: ['react'],
+    techs: ['react', 'javascript', 'tailwindcss'],
+  },
+  {
+    id: 5,
+    name: 'Popular TV Shows',
+    description:
+      'Web app that fetches data from TVmaze API of some popular TV Shows and connects to an Involvement API to register comments and likes.',
+    image_path:
+      'https://raw.githubusercontent.com/lfmnovaes/javascript-capstone-project/dev/preview.png',
+    deployed_url: 'https://lfmnovaes.github.io/javascript-capstone-project/',
+    github_url: 'https://github.com/lfmnovaes/javascript-capstone-project',
+    category: ['node'],
+    techs: ['javascript', 'bootstrap'],
   },
 ];

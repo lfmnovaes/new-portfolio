@@ -2,6 +2,7 @@ import Bar from '../components/Bar';
 import { languages, tools } from '../data';
 import { motion } from 'framer-motion';
 import { fadeInFadeOut, fadeInUp } from '../animation';
+import Head from 'next/head';
 
 const Resume = () => {
   return (
@@ -12,31 +13,39 @@ const Resume = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Web Developer | Resume | lfmnovaes</title>
+      </Head>
       {/* edu & exp */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
-          <h5 className="my-3 text-2xl font-bold">Education</h5>
+          <h3 className="my-3 text-2xl font-bold">Education</h3>
           <div>
-            <h5 className="my-2 text-xl font-bold">Computer Science</h5>
+            <h4 className="my-2 text-xl font-bold">Microverse</h4>
+            <p className="font-semibold">
+              Online coding school
+            </p>
+          </div>
+          <div className="py-2">
+            <h4 className="my-2 text-xl font-bold">Computer Science</h4>
             <p className="font-semibold">
               Federal University of Rio de Janeiro (UFRJ)
             </p>
-            <p className="my-3">Lorem ipsum dolor sit</p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <h3 className="my-3 text-2xl font-bold">Experience</h3>
           <div>
-            <h5 className="my-2 text-xl font-bold">Intern</h5>
+            <h4 className="my-2 text-xl font-bold">Intern</h4>
             <p className="font-semibold">COPPE-UFRJ</p>
-            <p className="my-3">Lorem ipsum dolor sit</p>
+            <p className="my-3">C# and ASP.Net Web Developer</p>
           </div>
         </motion.div>
       </div>
       {/* lang & tools */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Languages and Frameworks</h5>
+          <h3 className="my-3 text-2xl font-bold">Languages and Frameworks</h3>
           <div className="my-2">
             {languages.map((language, i) => (
               <Bar data={language} key={i} />
@@ -44,7 +53,7 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-2xl font-bold">Tools and Softwares</h5>
+          <h3 className="my-3 text-2xl font-bold">Other techs & softwares</h3>
           <div className="my-2">
             {tools.map((tool, i) => (
               <Bar data={tool} key={i} />

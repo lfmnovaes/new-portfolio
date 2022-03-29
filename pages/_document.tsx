@@ -14,6 +14,11 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
           rel="stylesheet"
         />
+        <meta name="description" content="Full Stack Web Developer portfolio" />
+        <meta
+          name="keywords"
+          content="Full Stack Web Developer, portfolio, React, NextJS, Ruby on Rails, Javascript"
+        />
       </Head>
       <body className="bg-fixed bg-gradient-to-r from-green-400 to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />

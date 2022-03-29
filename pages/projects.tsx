@@ -5,6 +5,7 @@ import { my_projects } from '../data';
 import { Category } from '../types';
 import { motion } from 'framer-motion';
 import { fadeInFadeOut, fadeInUp, stagger } from '../animation';
+import Head from 'next/head';
 
 const Projects = () => {
   const [projects, setProjects] = useState(my_projects);
@@ -33,6 +34,9 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Web Developer | Projects | lfmnovaes</title>
+      </Head>
       <ProjectsNavbar categoryFilter={categoryFilter} active={active} />
       <motion.div
         className="relative grid grid-cols-12 gap-4 my-3"

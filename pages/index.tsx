@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { fadeInFadeOut, fadeInUp, stagger } from '../animation';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
+import Head from 'next/head';
 
 const About: NextPage = () => {
   return (
@@ -13,10 +14,13 @@ const About: NextPage = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Web Developer | Portfolio | lfmnovaes</title>
+      </Head>
       <h5 className="my-3 font-medium">
         I have a degree of Computer Science at Federal University of Rio de
         Janeiro (UFRJ), graduated at Microverse online school, and I also have
-        more than 1 year of Web Development experience.
+        more than 2 years of Web Development experience.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

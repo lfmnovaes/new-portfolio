@@ -14,7 +14,7 @@ const Bar: FunctionComponent<{
       width: bar_width,
       transition: {
         duration: 0.4,
-        type: "spring",
+        type: 'spring',
         damping: 10,
         stiffness: 100,
       },
