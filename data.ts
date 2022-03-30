@@ -99,7 +99,7 @@ export const my_projects: Project[] = [
     description:
       'A simple NextJS pokedex project using the Static Site Generation feature',
     image_path:
-      'https://raw.githubusercontent.com/lfmnovaes/nextjs-pokedex/dev/front-ss.png',
+      'https://raw.githubusercontent.com/lfmnovaes/nextjs-pokedex/dev/preview.png',
     deployed_url: 'https://nextjs-pokedex-lfmn.vercel.app/',
     github_url: 'https://github.com/lfmnovaes/nextjs-pokedex',
     category: ['nextjs'],
@@ -110,7 +110,7 @@ export const my_projects: Project[] = [
     name: 'Recipe App',
     description:
       'In this app you can organize your list of foods, recipes, and can create the related shopping list',
-    image_path: '/images/recipe-app.png',
+    image_path: 'https://raw.githubusercontent.com/lfmnovaes/recipe-app/dev/preview.png',
     deployed_url: 'https://recipe-app-lfmn.herokuapp.com/',
     github_url: 'https://github.com/lfmnovaes/recipe-app',
     category: ['ruby on rails'],
@@ -121,7 +121,7 @@ export const my_projects: Project[] = [
     name: 'Popular Crypto Currencies',
     description:
       'Web app showing a list of some popular crypto currencies, with their current prices and past fluctuations',
-    image_path: '/images/crypto-app.png',
+    image_path: 'https://raw.githubusercontent.com/lfmnovaes/react-capstone/dev/preview.png',
     deployed_url: 'https://react-capstone-lfmn.herokuapp.com/',
     github_url: 'https://github.com/lfmnovaes/react-capstone',
     category: ['react'],
@@ -133,7 +133,7 @@ export const my_projects: Project[] = [
     description:
       'FrontEnd part for the Car Rental project, to make it easier to add/delete reservations, show available cars and cities. Data from the BackEnd RoR API project.',
     image_path:
-      'https://raw.githubusercontent.com/lfmnovaes/car-rental-frontend/dev/preview.png',
+      'https://raw.githubusercontent.com/lfmnovaes/car-rental-front-end/dev/preview.png',
     deployed_url: 'https://car-rental-frontend-lfmn.netlify.app/',
     github_url: 'https://github.com/lfmnovaes/car-rental-front-end',
     category: ['react'],

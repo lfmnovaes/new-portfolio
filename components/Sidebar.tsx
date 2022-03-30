@@ -37,8 +37,8 @@ const Sidebar = () => {
         Web Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 hover:text-dark"
-        href="/assets/Resume_lfmn.pdf"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 hover:text-dark hover:bg-gray-400 dark:hover:bg-gray-400"
+        href="https://github.com/lfmnovaes/lfmnovaes/raw/main/Resume%20-%20Luis%20Fernando.pdf"
         download="Resume_lfmn.pdf"
       >
         <GiTie className="w-6 h-6" />
