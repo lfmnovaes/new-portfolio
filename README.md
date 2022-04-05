@@ -118,7 +118,7 @@ Open the page and check out my contact informations, Resume, and projects.
 - [X] Make portfolio using TypeScript, Tailwind and React
 - [X] Make server side renderization with NextJS and host it online
 - [X] Create Dark/Light toggle
-- [-] Add all past GitHub projects
+- [ ] Add all past GitHub projects
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -141,7 +141,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
