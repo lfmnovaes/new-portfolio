@@ -23,4 +23,4 @@ export interface Project {
   techs: string[];
 }
 
-export type Category = 'react' | 'node' | 'ruby' | 'ruby on rails' | 'nextjs';
+export type Category = 'react' | 'JS' | 'ruby' | 'ruby on rails' | 'nextjs';
