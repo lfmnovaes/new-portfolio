@@ -13,7 +13,10 @@ const Sidebar = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    setMounted(true);
+    setTheme('light');
+  }, []);
   if (!mounted) return null;
 
   const toggleTheme = () => {
@@ -96,7 +99,7 @@ const Sidebar = () => {
         className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400 hover:bg-gradient-to-r hover:from-blue-400 hover:to-green-400"
         type="button"
       >
-        {theme === 'light' ? 'Dark ' : 'Light '}
+        {theme === 'dark' ? 'Light ' : 'Dark '}
         theme
       </button>
     </>
