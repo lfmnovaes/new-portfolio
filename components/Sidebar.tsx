@@ -17,6 +17,7 @@ const Sidebar = () => {
     setMounted(true);
     setTheme('light');
   }, []);
+
   if (!mounted) return null;
 
   const toggleTheme = () => {

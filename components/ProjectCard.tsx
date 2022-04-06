@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { fadeInUp, stagger } from '../animation';
 
-const handleClickOutside = (ref, handler) => {
+const useOnClickOutside = (ref, handler) => {
   useEffect(() => {
     const listener = (event) => {
       if (!ref.current || ref.current.contains(event.target)) {
@@ -21,7 +21,7 @@ const handleClickOutside = (ref, handler) => {
       document.removeEventListener('touchstart', listener);
     };
   }, [ref, handler]);
-}
+};
 
 const ProjectCard: FunctionComponent<{
   project: Project;
@@ -43,7 +43,7 @@ const ProjectCard: FunctionComponent<{
 }) => {
   const divRef = useRef();
   const handler = useCallback(() => setShowDetail(null), []);
-  handleClickOutside(divRef, handler);
+  useOnClickOutside(divRef, handler);
 
   return (
     <div>
