@@ -15,7 +15,9 @@ const Sidebar = () => {
 
   useEffect(() => {
     setMounted(true);
-    setTheme('light');
+    if (!localStorage.getItem('theme')) {
+      setTheme('light');
+    }
   }, []);
 
   if (!mounted) return null;

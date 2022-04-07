@@ -10,7 +10,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: 'Frontend Development',
     about:
-      'I can build a nice and scalable SPA using <b>HTML</b>,<b>CSS</b>, <b>React</b>, and <b>NextJS</b>',
+      'I can build a nice and scalable SPA using <b>HTML</b>, <b>CSS</b>, <b>React</b>, and <b>NextJS</b>',
   },
   {
     Icon: FaServer,
