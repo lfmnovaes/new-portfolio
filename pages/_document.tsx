@@ -19,7 +19,7 @@ export default function Document() {
           name="keywords"
           content="Full Stack Web Developer, Frontend Backend Software Engineer, portfolio, React, ReactJS, NextJS, JavaScript, JS, RoR, Ruby on Rails"
         />
-        <meta property="og:image" content="../preview2.png" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/lfmnovaes/new-portfolio/dev/preview2.png" />
       </Head>
       <body className="bg-fixed bg-gradient-to-r from-green-400 to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />
