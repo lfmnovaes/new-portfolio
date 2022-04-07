@@ -17,8 +17,9 @@ export default function Document() {
         <meta name="description" content="Full Stack Web Developer portfolio" />
         <meta
           name="keywords"
-          content="Full Stack Web Developer, portfolio, React, NextJS, Ruby on Rails, Javascript"
+          content="Full Stack Web Developer, Frontend Backend Software Engineer, portfolio, React, ReactJS, NextJS, JavaScript, JS, RoR, Ruby on Rails"
         />
+        <meta property="og:image" content="../preview2.png" />
       </Head>
       <body className="bg-fixed bg-gradient-to-r from-green-400 to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />
