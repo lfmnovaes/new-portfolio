@@ -16,13 +16,13 @@ export const services: Service[] = [
     Icon: FaServer,
     title: 'Backend Development',
     about:
-      'I can handle with <b>Ruby on Rails</b>, <b>PostgreSQL</b>, and <b>Ruby</b>',
+      'I can handle servers with <b>Ruby on Rails</b>, <b>Express</b>, and other popular frameworks',
   },
   {
     Icon: AiOutlineApi,
     title: 'API Development',
     about:
-      'I can develop robust REST API using <b>Ruby on Rails</b> or <b>Next.JS</b>',
+      'I can develop robust REST API using <b>Ruby on Rails</b> and with databases like <b>PostgreSQL</b>',
   },
   {
     Icon: MdDeveloperMode,
@@ -40,17 +40,17 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'JavaScript',
-    level: '60',
+    level: '65',
   },
   {
     Icon: BsCircleFill,
     name: 'React',
-    level: '45',
+    level: '50',
   },
   {
     Icon: BsCircleFill,
-    name: 'Python',
-    level: '30',
+    name: 'TypeScript',
+    level: '40',
   },
   {
     Icon: BsCircleFill,
@@ -59,18 +59,18 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: 'Ruby',
-    level: '50',
+    name: 'NextJS',
+    level: '45',
   },
   {
     Icon: BsCircleFill,
     name: 'Bootstrap',
-    level: '50',
+    level: '55',
   },
   {
     Icon: BsCircleFill,
     name: 'TailwindCSS',
-    level: '55',
+    level: '60',
   },
 ];
 
@@ -78,22 +78,22 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'PostgreSQL',
-    level: '50',
-  },
-  {
-    Icon: BsCircleFill,
-    name: 'Shellscript',
-    level: '35',
+    level: '60',
   },
   {
     Icon: BsCircleFill,
     name: 'Git',
-    level: '50',
+    level: '70',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Shellscript',
+    level: '55',
   },
   {
     Icon: BsCircleFill,
     name: 'Heroku',
-    level: '35',
+    level: '40',
   },
 ];
 

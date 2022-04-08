@@ -119,6 +119,7 @@ Open the page and check out my contact informations, Resume, and projects.
 - [X] Make server side renderization with NextJS and host it online
 - [X] Create Dark/Light toggle
 - [ ] Add all past GitHub projects
+- [ ] Use DOMPurify to Sanitize the markup from dangerouslySetInnerHTML
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -172,6 +173,6 @@ Project Link: [https://github.com/lfmnovaes/new-portfolio](https://github.com/lf
 [issues-shield]: https://img.shields.io/github/issues/lfmnovaes/new-portfolio.svg?style=for-the-badge
 [issues-url]: https://github.com/lfmnovaes/new-portfolio/issues
 [license-shield]: https://img.shields.io/github/license/lfmnovaes/new-portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/lfmnovaes/new-portfolio/blob/main/LICENSE.txt
+[license-url]: https://github.com/lfmnovaes/new-portfolio/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lfmnovaes/

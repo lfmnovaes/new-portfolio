@@ -17,7 +17,7 @@ const About: NextPage = () => {
       <Head>
         <title>Web Developer | Portfolio | lfmnovaes</title>
       </Head>
-      <h5 className="my-3 font-medium">
+      <h5 className="my-3 text-base font-medium">
         I have a degree in Computer Science from the Federal University of Rio
         de Janeiro (UFRJ), graduated from Microverse online school, and I also
         have more than 2 years of Web Development experience.
@@ -26,9 +26,9 @@ const About: NextPage = () => {
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
-        <h6 className="my-3 text-xl font-bold">What I Offer</h6>
+        <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
         <motion.div
-          className="grid gap-6 lg:grid-cols-2"
+          className="grid gap-6 my-3 lg:grid-cols-2"
           variants={stagger}
           initial="initial"
           animate="animate"
