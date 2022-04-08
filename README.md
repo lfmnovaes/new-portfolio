@@ -10,6 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+<<<<<<< HEAD
   <a href="https://github.com/github_username/repo_name">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -27,6 +28,22 @@
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+=======
+
+  <h1 align="center">Portfolio</h1>
+
+  <p align="center">
+    A new Portfolio using server-side renderization with NextJS and a easier way to contact.
+    <br />
+    <a href="https://github.com/lfmnovaes/new-portfolio/wiki"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <strong><a href="https://new-portfolio-lfmn.vercel.app/">View Live Demo</a></strong>
+    ·
+    <a href="https://github.com/lfmnovaes/new-portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/lfmnovaes/new-portfolio/issues">Request Feature</a>
+>>>>>>> dev
   </p>
 </div>
 
@@ -59,14 +76,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<<<<<<< HEAD
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+=======
+![Portfolio Preview](./preview.png)
+
+Brand new portfolio to show more about my past projects while using good practices and some of the best technologies available.
+>>>>>>> dev
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
+<<<<<<< HEAD
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
 * [Vue.js](https://vuejs.org/)
@@ -75,12 +99,20 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [Laravel](https://laravel.com)
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
+=======
+* [TypeScript](https://www.typescriptlang.org/)
+* [Node.js](https://nodejs.org/en/)
+* [React.js](https://reactjs.org/)
+* [Next.js](https://nextjs.org/)
+* [TailwindCSS](https://tailwindcss.com/)
+>>>>>>> dev
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+<<<<<<< HEAD
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
@@ -90,10 +122,24 @@ This is an example of how to list things you need to use the software and how to
 * npm
   ```sh
   npm install npm@latest -g
+=======
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+You will need to have NodeJS installed based on your Operational System
+
+For example on Ubuntu 20.04 LTS you can follow these [instructions](https://github.com/nodesource/distributions/blob/master/README.md).
+* Using Ubuntu
+  ```sh
+  curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+>>>>>>> dev
   ```
 
 ### Installation
 
+<<<<<<< HEAD
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
@@ -106,6 +152,19 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
+=======
+1. Clone the repo
+   ```sh
+   git clone https://github.com/lfmnovaes/new-portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run on dev mode
+   ```sh
+   npm run dev
+>>>>>>> dev
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -113,21 +172,33 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+<<<<<<< HEAD
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
+=======
+Open the page and check out my contact informations, Resume, and projects.
+>>>>>>> dev
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
+<<<<<<< HEAD
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+=======
+- [X] Make portfolio using TypeScript, Tailwind and React
+- [X] Make server side renderization with NextJS and host it online
+- [X] Create Dark/Light toggle
+- [ ] Add all past GitHub projects
+- [ ] Use DOMPurify to Sanitize the markup from dangerouslySetInnerHTML
+>>>>>>> dev
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -150,16 +221,26 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
+<<<<<<< HEAD
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+=======
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
+>>>>>>> dev
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
+<<<<<<< HEAD
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+=======
+Luis Fernando - [@lfmnovaes](https://twitter.com/lfmnovaes) - lfmnovaes@gmail.com
+
+Project Link: [https://github.com/lfmnovaes/new-portfolio](https://github.com/lfmnovaes/new-portfolio)
+>>>>>>> dev
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -172,6 +253,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<<<<<<< HEAD
 [contributors-shield]: https://img.shields.io/github/contributors/lfmnovaes/readme-template.svg?style=for-the-badge
 [contributors-url]: https://github.com/lfmnovaes/readme-template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/lfmnovaes/readme-template.svg?style=for-the-badge
@@ -185,3 +267,17 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lfmnovaes/
 [product-screenshot]: images/screenshot.png
+=======
+[contributors-shield]: https://img.shields.io/github/contributors/lfmnovaes/new-portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/lfmnovaes/new-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lfmnovaes/new-portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/lfmnovaes/new-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/lfmnovaes/new-portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/lfmnovaes/new-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lfmnovaes/new-portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/lfmnovaes/new-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/lfmnovaes/new-portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/lfmnovaes/new-portfolio/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/lfmnovaes/
+>>>>>>> dev
