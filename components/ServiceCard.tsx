@@ -12,7 +12,7 @@ const ServiceCard: FunctionComponent<{ service: Service }> = ({
 
   return (
     <div className="flex items-center p-2 space-x-4">
-      <Icon className="w-12 h-12 shrink-0 text-gren-500 dark:text-green" />
+      <Icon className="w-12 h-12 text-green-500 shrink-0 dark:text-green" />
       <div>
         <h4 className="font-bold"> {title} </h4>
         <p dangerouslySetInnerHTML={createMarkup()} />

@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <>
       <Analytics />
-      <ThemeProvider attribute="class">
+      <ThemeProvider attribute="class" enableSystem={false}>
         <div className="grid grid-cols-12 gap-6 px-5 xl:px-48 my-14 lg:px-32 sm:px-20 md:px-28">
           <div className="col-span-12 p-4 text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
             <Sidebar />

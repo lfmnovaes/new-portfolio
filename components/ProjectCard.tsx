@@ -60,7 +60,7 @@ const ProjectCard: FunctionComponent<{
       {showDetail === id && (
         <div
           ref={divRef}
-          className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 md:p-10"
+          className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 border rounded-lg md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 md:p-10"
         >
           <motion.div variants={stagger} initial="initial" animate="animate">
             <motion.div
@@ -81,7 +81,7 @@ const ProjectCard: FunctionComponent<{
             >
               <a
                 href={github_url}
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-md hover:bg-gray-300 dark:bg-dark-200 dark:hover:bg-gray-800"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="github project page"
@@ -90,7 +90,7 @@ const ProjectCard: FunctionComponent<{
               </a>
               <a
                 href={deployed_url}
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-md hover:bg-gray-300 dark:bg-dark-200 dark:hover:bg-gray-800"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="live demonstration"
@@ -125,7 +125,7 @@ const ProjectCard: FunctionComponent<{
           </motion.div>
           <button
             onClick={() => setShowDetail(null)}
-            className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
+            className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none hover:bg-gray-300 dark:bg-dark-200 dark:hover:bg-gray-800"
           >
             <MdClose size={30} />
           </button>
