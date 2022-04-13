@@ -176,8 +176,8 @@ export const my_projects: Project[] = [
     description: `To-Do Task List Project which can add/edit/remove (one or multiple) tasks with the browser's local storage interaction.`,
     image_path:
       'https://raw.githubusercontent.com/lfmnovaes/todo-list/main/preview.png',
-    deployed_url: 'https://github.com/lfmnovaes/todo-list',
-    github_url: 'https://lfmnovaes.github.io/todo-list',
+    deployed_url: 'https://lfmnovaes.github.io/todo-list',
+    github_url: 'https://github.com/lfmnovaes/todo-list',
     category: ['JS'],
     techs: ['javascript', 'CSS'],
   },
@@ -187,8 +187,8 @@ export const my_projects: Project[] = [
     description: 'Methods to encode/decode phrases to Morse Code',
     image_path:
       'https://raw.githubusercontent.com/lfmnovaes/morse-code/main/preview.png',
-    deployed_url: 'https://github.com/lfmnovaes/morse-code',
-    github_url: 'https://lfmnovaes.github.io/morse-code',
+    deployed_url: 'https://replit.com/@lfmnovaes/Morse-Code-EncoderDecoder#main.rb',
+    github_url: 'https://github.com/lfmnovaes/morse-code',
     category: ['ruby'],
     techs: ['ruby'],
   },

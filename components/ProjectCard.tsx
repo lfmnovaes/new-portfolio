@@ -70,8 +70,8 @@ const ProjectCard: FunctionComponent<{
               <Image
                 src={image_path}
                 alt={name}
-                width="300"
-                height="169"
+                width="600"
+                height="338"
                 layout="responsive"
               />
             </motion.div>
