@@ -115,7 +115,8 @@ export const my_projects: Project[] = [
     name: 'Recipe App',
     description:
       'In this app you can organize your list of foods, recipes, and can create the related shopping list',
-    image_path: 'https://raw.githubusercontent.com/lfmnovaes/recipe-app/dev/preview.png',
+    image_path:
+      'https://raw.githubusercontent.com/lfmnovaes/recipe-app/dev/preview.png',
     deployed_url: 'https://recipe-app-lfmn.herokuapp.com',
     github_url: 'https://github.com/lfmnovaes/recipe-app',
     category: ['ruby on rails'],
@@ -126,7 +127,8 @@ export const my_projects: Project[] = [
     name: 'Popular Crypto Currencies',
     description:
       'Web app showing a list of some popular crypto currencies, with their current prices and past fluctuations',
-    image_path: 'https://raw.githubusercontent.com/lfmnovaes/react-capstone/dev/preview.png',
+    image_path:
+      'https://raw.githubusercontent.com/lfmnovaes/react-capstone/dev/preview.png',
     deployed_url: 'https://react-capstone-lfmn.herokuapp.com',
     github_url: 'https://github.com/lfmnovaes/react-capstone',
     category: ['react'],
@@ -171,13 +173,23 @@ export const my_projects: Project[] = [
   {
     id: 7,
     name: 'To Do List',
-    description:
-      `To-Do Task List Project which can add/edit/remove (one or multiple) tasks with the browser's local storage interaction.`,
+    description: `To-Do Task List Project which can add/edit/remove (one or multiple) tasks with the browser's local storage interaction.`,
     image_path:
       'https://raw.githubusercontent.com/lfmnovaes/todo-list/main/preview.png',
     deployed_url: 'https://github.com/lfmnovaes/todo-list',
     github_url: 'https://lfmnovaes.github.io/todo-list',
     category: ['JS'],
     techs: ['javascript', 'CSS'],
+  },
+  {
+    id: 8,
+    name: 'Morse Code Encoder/Decoder',
+    description: 'Methods to encode/decode phrases to Morse Code',
+    image_path:
+      'https://raw.githubusercontent.com/lfmnovaes/morse-code/main/preview.png',
+    deployed_url: 'https://github.com/lfmnovaes/morse-code',
+    github_url: 'https://lfmnovaes.github.io/morse-code',
+    category: ['ruby'],
+    techs: ['ruby'],
   },
 ];

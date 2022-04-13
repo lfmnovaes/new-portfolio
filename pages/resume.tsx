@@ -22,9 +22,7 @@ const Resume = () => {
           <h3 className="my-3 text-2xl font-bold">Education</h3>
           <div>
             <h4 className="my-2 text-xl font-bold">Microverse</h4>
-            <p className="font-semibold">
-              Online coding school
-            </p>
+            <p className="font-semibold">Online coding school</p>
           </div>
           <div className="py-2">
             <h4 className="my-2 text-xl font-bold">Computer Science</h4>
@@ -53,7 +51,7 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h3 className="my-3 text-2xl font-bold">Other techs & softwares</h3>
+          <h3 className="my-3 text-2xl font-bold">Other tech & software</h3>
           <div className="my-2">
             {tools.map((tool, i) => (
               <Bar data={tool} key={i} />
